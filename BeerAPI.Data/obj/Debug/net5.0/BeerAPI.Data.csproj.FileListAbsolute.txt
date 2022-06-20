@@ -1,0 +1,15 @@
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\BeerAPI.Data.deps.json
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\BeerAPI.Data.dll
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\ref\BeerAPI.Data.dll
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\BeerAPI.Data.pdb
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\BeerAPI.Models.dll
+C:\Users\odelangel\Projects\BeerAPI.Data\bin\Debug\net5.0\BeerAPI.Models.pdb
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.csproj.AssemblyReference.cache
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.AssemblyInfoInputs.cache
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.AssemblyInfo.cs
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.csproj.CopyComplete
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.dll
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\ref\BeerAPI.Data.dll
+C:\Users\odelangel\Projects\BeerAPI.Data\obj\Debug\net5.0\BeerAPI.Data.pdb

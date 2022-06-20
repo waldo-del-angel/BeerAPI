@@ -1,0 +1,12 @@
+C:\Users\odelangel\Projects\BeerAPI.Models\bin\Debug\net5.0\BeerAPI.Models.deps.json
+C:\Users\odelangel\Projects\BeerAPI.Models\bin\Debug\net5.0\BeerAPI.Models.dll
+C:\Users\odelangel\Projects\BeerAPI.Models\bin\Debug\net5.0\ref\BeerAPI.Models.dll
+C:\Users\odelangel\Projects\BeerAPI.Models\bin\Debug\net5.0\BeerAPI.Models.pdb
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.AssemblyInfoInputs.cache
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.AssemblyInfo.cs
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.csproj.CoreCompileInputs.cache
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.dll
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\ref\BeerAPI.Models.dll
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.pdb
+C:\Users\odelangel\Projects\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.csproj.AssemblyReference.cache

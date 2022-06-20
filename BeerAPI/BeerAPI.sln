@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerAPI", "BeerAPI.csproj", "{194633C2-AD0F-43CC-945A-25B73013DA24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFE7E90F-83F7-44B3-9482-F280BA4EBF51} = {BFE7E90F-83F7-44B3-9482-F280BA4EBF51}
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F} = {CDAAE02F-C395-4E16-881D-0600244D8E2F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerAPI.Models", "..\BeerAPI.Models\BeerAPI.Models.csproj", "{CDAAE02F-C395-4E16-881D-0600244D8E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerAPI.Data", "..\BeerAPI.Data\BeerAPI.Data.csproj", "{BFE7E90F-83F7-44B3-9482-F280BA4EBF51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F} = {CDAAE02F-C395-4E16-881D-0600244D8E2F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194633C2-AD0F-43CC-945A-25B73013DA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194633C2-AD0F-43CC-945A-25B73013DA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194633C2-AD0F-43CC-945A-25B73013DA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194633C2-AD0F-43CC-945A-25B73013DA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAAE02F-C395-4E16-881D-0600244D8E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE7E90F-83F7-44B3-9482-F280BA4EBF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE7E90F-83F7-44B3-9482-F280BA4EBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE7E90F-83F7-44B3-9482-F280BA4EBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE7E90F-83F7-44B3-9482-F280BA4EBF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ECD461D-3051-4445-B8EB-C5BBB5DA74D4}
+	EndGlobalSection
+EndGlobal
