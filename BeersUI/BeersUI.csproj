@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CurrieTechnologies.Razor.SweetAlert2" Version="5.2.1" />
+    <PackageReference Include="MudBlazor" Version="5.2.4" />
+    <PackageReference Include="Refit" Version="5.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BeerAPI.Models">
+      <HintPath>..\BeerAPI.Models\obj\Debug\net5.0\BeerAPI.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

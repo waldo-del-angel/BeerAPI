@@ -1,0 +1,60 @@
+﻿@page "/beers"
+
+@using CurrieTechnologies.Razor.SweetAlert2
+@using BeerAPI.Models
+@using Interfaces
+@using Refit
+
+@inject SweetAlertService Swal
+
+<h1>BeersUI</h1>
+
+
+@if (!string.IsNullOrEmpty(_messageError))
+{
+    <MudAlert Severity="Severity.Error">@_messageError</MudAlert>
+}
+
+@if (!_loading)
+{
+    <MudTable Items="@_beers" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>ID</MudTh>
+            <MudTh>BEER</MudTh>
+            <MudTh>TRADEMARK</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Nr">@context.IdBeer</MudTd>
+            <MudTd DataLabel="Sign">@context.Name</MudTd>
+            <MudTd DataLabel="Name">@context.IdTradeMark</MudTd>
+        </RowTemplate>
+    </MudTable>
+}
+else
+{
+    <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+}
+
+
+
+@code {
+    private IEnumerable<Beer> _beers;
+    private bool _loading = true;
+    private string _messageError = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var gitHubApi = RestService.For<IBeerService>("https://localhost:44373/");
+            _beers = await gitHubApi.GetBeers();
+            _loading = false;
+        }
+        catch (Exception _)
+        {
+            _messageError = _.Message;
+            _loading = false;
+        }
+    }
+
+}

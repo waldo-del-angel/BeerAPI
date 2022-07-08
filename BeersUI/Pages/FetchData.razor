@@ -1,0 +1,33 @@
+﻿@page "/fetchdata"
+
+@using BeersUI.Data
+@inject WeatherForecastService ForecastService
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+<MudTable Items="@_forecasts" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>DATE</MudTh>
+        <MudTh>TEMP (C)</MudTh>
+        <MudTh>TEMP (F)</MudTh>
+        <MudTh>SUMMARY</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Nr">@context.Date.ToShortDateString()</MudTd>
+        <MudTd DataLabel="Sign">@context.TemperatureC</MudTd>
+        <MudTd DataLabel="Name">@context.TemperatureF</MudTd>
+        <MudTd DataLabel="Position">@context.Summary</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private WeatherForecast[] _forecasts;
+    private bool _loading = true;
+    protected override async Task OnInitializedAsync()
+    {
+        _forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        _loading = false;
+    }
+}
